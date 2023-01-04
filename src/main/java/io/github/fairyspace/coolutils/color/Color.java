@@ -1,4 +1,4 @@
-package io.github.fairyspace.coolutils;
+package io.github.fairyspace.coolutils.color;
 
 public class Color {
     public static final String RESET = "\033[0m";  // Text Reset

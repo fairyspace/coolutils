@@ -1,6 +1,6 @@
-package io.github.fairyspace.coolutils;
+package io.github.fairyspace.coolutils.color;
 
-public class C {
+public class ColorUtils {
     public static String Red(String color) {
         return Color.RED + color + Color.RESET;
     }
