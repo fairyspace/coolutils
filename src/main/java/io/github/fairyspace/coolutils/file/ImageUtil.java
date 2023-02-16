@@ -1,4 +1,4 @@
-package io.github.fairyspace.coolutils.image;
+package io.github.fairyspace.coolutils.file;
 
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
@@ -51,7 +51,7 @@ public class ImageUtil {
      * 图片转base64字符串
      *
      * @param imgFile 图片路径
-     * @return
+     * @return string
      */
     public static String imageToBase64Str(String imgFile) {
         InputStream inputStream = null;
